@@ -3,20 +3,20 @@ Skillbox Python DataScience Intensive
 
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=Python&logoColor=fffffb) ![Pandas](https://img.shields.io/badge/-Pandas-05122A?style=flat&logo=Pandas) ![MathPlotLib](https://img.shields.io/badge/-MathPlotLib-05122A?style=flat&logo=MathPlotLib) ![Scikit-learn](https://img.shields.io/badge/-Scikit_learn-05122A?style=flat&logo=sklearn)
 
-Учебный интенсив Skillbox DataScience "Предсказание курса доллара" с помощью Python.
-Предсказание производится на основе исторических данных.
-Использованы библиотеки:
-- Pandas - для получения данных из файла Excel,
-- MathPlotLib для построения графиков.
-- Scikit-learn (SKLearn) для алгоритмов/
+Skillbox DataScience training intensive "Predicting the dollar exchange rate" using Python.
+Prediction is made based on historical data.
+Libraries used:
+- Pandas - for getting data from an Excel file,
+- MathPlotLib for plotting.
+- Scikit-learn (SKLearn) for algorithms/
 
-Для оценки использовалась средняя абсолютная ошибка (mean_absolute_error from sklearn.metrics).
+The mean absolute error (mean_absolute_error from sklearn.metrics) was used for evaluation.
 
-Алгоритмы:
+Algorithms:
 - LinearRegression,
 - KNeighborsRegressor,
 - MLPRegressor,
 - RandomForestRegressor,
 
-Автоматизация подбора параметров и кросс-валидация:
+Automation of parameter selection and cross-validation:
 - GridSearchCV from sklearn.model_selection
